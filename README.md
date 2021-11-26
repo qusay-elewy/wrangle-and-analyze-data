@@ -17,8 +17,8 @@ My tasks in this project are as follows:
 In this project, I will work on the following three datasets:
 ### Enhanced Twitter Archive
 The WeRateDogs Twitter archive contains basic tweet data for all 5000+ of their tweets, but not everything. Of the 5000+ tweets, Udacity has filtered for tweets with ratings only (there are 2356). This archive is saved under this name: twitter_archive_enhanced.csv.
-### Additional Data via the Twitter API
-Twitter archives are vert basic, and a lot of information is missing in it, such as retweet count and favorite count. For this reason, Udacity has provided a json file called  tweet_json.txt, which contains Tweet's entire set of JSON data.
+### Additional Data via the Twitter JSON Archive
+Twitter archives are very basic, and a lot of information is missing in it, such as retweet count and favorite count. For this reason, Udacity has provided a json file called  tweet_json.txt, which contains tweets' entire set of JSON data. The file was composed using Twitter's API.
 
 In this project, I have read this .txt file line by line into a pandas DataFrame with tweet ID, retweet count, and favorite count.
 ### Image Predictions File
